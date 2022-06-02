@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <% if obj.errors.any? %>
  <div class = "error_message">新規登録できませんでした</div>
  <% obj.errors.full_messages.each do |message| %>
@@ -6,3 +7,13 @@
  </ul>
  <% end %>
 <% end %>
+=======
+<% if obj.errors.any? %>
+ <div class = "error_message">新規登録できませんでした</div>
+ <% obj.errors.full_messages.each do |message| %>
+ <ul>
+   <li><%= message %></li>
+ </ul>
+ <% end %>
+<% end %>
+>>>>>>> 54f123e79327805bd09733600c81984aff43764d
