@@ -11,7 +11,7 @@ class Schedule9sController < ApplicationController
     @schedule9 = Schedule9.new(params.require(:schedule9).permit(:title, :first_date, :final_date, :all_day, :schedule_memo))
     if @schedule9.save
       flash[:notice] = "スケジュールを新規登録しました"
-      ;redirect_to :schedule9s
+      redirect_to :schedule9s
     else
       render "new"
     end
@@ -41,8 +41,4 @@ class Schedule9sController < ApplicationController
     flash[:notice] = "スケジュールを削除しました"
     redirect_to :schedule9s
   end
-<<<<<<< HEAD
 end
-=======
-end
->>>>>>> 6618b802407d91a11657c0058faa4fe96c1691e2
