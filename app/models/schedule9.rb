@@ -14,4 +14,8 @@ class Schedule9 < ApplicationRecord
       "新規登録完了処理"
     end
   end
+<<<<<<< HEAD
 end
+=======
+end
+>>>>>>> 6618b802407d91a11657c0058faa4fe96c1691e2
